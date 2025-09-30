@@ -1,6 +1,6 @@
-# Apps de Apostas
+# Corinthians Online
 
-Plataforma completa para comparar e baixar os melhores aplicativos de apostas esportivas do Brasil. Reviews detalhados, tutoriais e bônus exclusivos.
+A casa de apostas oficial da Fiel Torcida. Portal de apostas esportivas dedicado à torcida corinthiana.
 
 ## 🚀 Tecnologias
 
@@ -12,7 +12,7 @@ Plataforma completa para comparar e baixar os melhores aplicativos de apostas es
 ## 📁 Estrutura do Projeto
 
 ```
-App-Apostas/
+Diario do Futebol/
 ├── frontend/          # Astro Application
 │   ├── src/
 │   │   ├── pages/     # Astro Pages
@@ -30,18 +30,17 @@ App-Apostas/
 ## 🌟 Funcionalidades
 
 ### Páginas Implementadas
-- **Homepage** (`/`) - Página inicial com comparação de apps
-- **Top Apps** (`/top-apps`) - Ranking dos melhores aplicativos
-- **Reviews** (`/reviews`) - Análises detalhadas de cada app
-- **Tutoriais** (`/tutoriais`) - Guias de instalação e uso
+- **Homepage** (`/`) - Página inicial com últimas notícias
+- **Apostas** (`/apostas`) - Seção de apostas esportivas
+- **Palpites** (`/palpites`) - Prognósticos e análises
+- **Times** (`/times/[slug]`) - Páginas específicas de times
 
 ### Recursos
 - Design responsivo baseado no Figma
-- Comparação interativa de apps de apostas
-- Sistema de reviews e avaliações
-- Filtros por categoria (iOS, Android, Esportes)
-- Tabela comparativa de recursos
-- Tutoriais passo a passo
+- Integração completa com Strapi CMS
+- Sistema de categorias e tags
+- Área de apostas e casas recomendadas
+- Seção de vídeos e conteúdo multimídia
 - SEO otimizado
 
 ## 🛠️ Desenvolvimento Local
@@ -54,8 +53,8 @@ App-Apostas/
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/ferramentas-acrd/App-Apostas.git
-cd "App-Apostas"
+git clone https://github.com/[username]/diario-do-futebol.git
+cd "Diario do Futebol"
 ```
 
 2. **Instale dependências:**
@@ -100,8 +99,9 @@ npm run dev
 
 ## 🎨 Design
 
-O projeto segue a identidade visual definida no Figma, com:
-- Cores principais: Vermelho (#dc2626) e Preto
+O projeto segue a identidade visual do Corinthians Online, com:
+- Cores principais: Preto, Branco e Roxo (#8B5CF6)
+- Logo "SC" em destaque
 - Tipografia: Inter
 - Layout responsivo e moderno
 - Componentes baseados no Tailwind CSS
@@ -150,4 +150,4 @@ Para suporte e dúvidas, entre em contato através dos issues do GitHub.
 
 ---
 
-**Diário do Futebol** - O portal mais completo de esportes e apostas do Brasil 🇧🇷⚽
+**Corinthians Online** - A casa de apostas oficial da Fiel Torcida ⚽🏟️
